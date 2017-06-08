@@ -1,0 +1,480 @@
+/*============    ШРИФТЫ    ===========*/
+@font-face {
+  font-family: 'ptsansnarrow';
+  src: url('fonts/ptsansnarrow.eot');
+  src: url('fonts/ptsansnarrow.eot') format('embedded-opentype'), url('fonts/ptsansnarrow.woff2') format('woff2'), url('fonts/ptsansnarrow.woff') format('woff'), url('fonts/ptsansnarrow.ttf') format('truetype'), url('fonts/ptsansnarrow.svg#ptsansnarrow') format('svg');
+}
+@font-face {
+  font-family: 'ptsansnarrowbold';
+  src: url('fonts/ptsansnarrowbold.eot');
+  src: url('fonts/ptsansnarrowbold.eot') format('embedded-opentype'), url('fonts/ptsansnarrowbold.woff2') format('woff2'), url('fonts/ptsansnarrowbold.woff') format('woff'), url('fonts/ptsansnarrowbold.ttf') format('truetype'), url('fonts/ptsansnarrowbold.svg#ptsansnarrowbold') format('svg');
+}
+@font-face {
+  font-family: 'ProximaNovaLight';
+  src: url('fonts/ProximaNovaLight.eot');
+  src: url('fonts/ProximaNovaLight.eot') format('embedded-opentype'), url('fonts/ProximaNovaLight.woff2') format('woff2'), url('fonts/ProximaNovaLight.woff') format('woff'), url('fonts/ProximaNovaLight.ttf') format('truetype'), url('fonts/ProximaNovaLight.svg#ProximaNovaLight') format('svg');
+}
+/*============    ГЛАВНЫЙ ЭКРАН    ===========*/
+.bold {
+  font-family: "BellGothicBlack";
+}
+.med {
+  font-family: "DIN_Medium";
+}
+.lig {
+  font-family: "ProximaNovaLight";
+}
+/*============    Базовые настройки    ===========*/
+a:hover,
+a:focus,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+body{
+  background: #000;
+}
+
+/*       ШАПКА       */
+
+#header {
+padding-top: 25px;
+padding-left: 100px;
+background: #000;
+height: 72px;
+position: fixed;
+z-index: 999;
+width: 100%;
+}
+.col-md-12.text-center.logo {
+    margin-top: 65px;
+}
+.style_top_meny li{
+margin-left: 30px;
+}
+.style_top_meny a{
+text-transform: uppercase;
+font-size: 14px;
+color: #fff;
+font-family: "ptsansnarrow";
+letter-spacing:-1px;
+}
+
+.style_top_meny a:hover{
+border-bottom: 1px dashed #fff;
+}
+.top-menu-right img{
+margin-top: -3px;
+}
+.top-menu-right a{
+text-transform: uppercase;
+font-size: 14px;
+color: #fff;
+font-family: "ptsansnarrow";
+letter-spacing:-1px;
+}
+.top-menu-right a:hover{
+border-bottom: 1px dashed #fff;
+}
+.top-menu-right button{
+  background-color: inherit;
+  border: none;
+  outline:none;
+}
+#down-header{
+  background: url(../img/header-fon.png) 100% 10% no-repeat #000 ;
+  background-size: cover;
+}
+.logo img{
+  padding-top: 60px;
+}
+.style-advantage{
+  color:#fff;
+  font-family: "ptsansnarrowbold";
+}
+.style-advantage h3{
+text-transform: uppercase;
+}
+.style-advantage img{
+  padding: 13px 0 22px 0;
+}
+.content-one{
+  background: url(../img/fon-content.jpg) 100% 100%;
+  background-position: center;
+  margin-top: 90px;
+}
+.style-content-left h3{
+padding-top: 38px;
+padding-left: 50px;
+color#000;
+text-transform: uppercase;
+font-family: "ptsansnarrow";
+font-weight: bold;
+letter-spacing: -2px;
+}
+.style-content-left p{
+  font-family: "ptsansnarrow";
+  font-size: 15px;
+  text-transform: uppercase;
+  padding-left: 50px;
+  padding-top: 30px;
+  color:#000;
+  font-weight: bold;
+  line-height:19px;
+}
+.style-content-left span{
+  font-size: 11px;
+  padding-left: 50px;
+  padding-top: 30px;
+  color:#000;
+  line-height:19px;
+}
+.style-content-left button{
+  margin-left: 50px;
+  background: #000;
+  width: 150px;
+  height: 46px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 12px;
+  color:#fff;
+  border: none;
+  outline:none;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+.style-content-left button:hover{
+  background: #020509;
+  color:#fff;
+}
+.style-content-left h3{
+  padding-left: 80px;
+}
+.slider{
+  padding-left: 80px;
+  padding-top: 45px;
+}
+.fotorama__nav-wrap{
+  margin-top: 42px;
+}
+.content-two{
+  background: url(../img/fon-content.jpg) 100% 100%;
+  background-position: center;
+  margin-top: 33px;
+}
+.style-content-two-left h3{
+padding-top: 38px;
+padding-left: 50px;
+color#000;
+text-transform: uppercase;
+font-family: "ptsansnarrow";
+font-weight: bold;
+letter-spacing: -2px;
+}
+.style-content-two-left p{
+  font-family: "ptsansnarrow";
+  font-size: 15px;
+  text-transform: uppercase;
+  padding-left: 50px;
+  padding-top: 30px;
+  color:#000;
+  font-weight: bold;
+  line-height:19px;
+}
+.style-content-two-left button{
+  margin-top: 50px;
+  margin-left: 50px;
+  background: #000;
+  width: 150px;
+  height: 46px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 12px;
+  color:#fff;
+  border: none;
+  outline:none;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+.style-content-two-right h3{
+padding-top: 38px;
+padding-left: 80px;
+color#000;
+text-transform: uppercase;
+font-family: "ptsansnarrow";
+font-weight: bold;
+letter-spacing: -2px;
+}
+.style-content-two-right p{
+  font-family: "ptsansnarrow";
+  font-size: 15px;
+  text-transform: uppercase;
+  padding-left: 80px;
+  padding-top: 30px;
+  color:#000;
+  font-weight: bold;
+  line-height:19px;
+}
+.style-content-two-right form{
+  margin-top: 0px;
+}
+.style-content-two-right input{
+  width: 140px;
+  height: 45px;
+  border: 2px solid #000;
+  border-radius: 0px;
+  margin-top: 24px;
+  color:#000;
+  outline:none;
+}
+input::-webkit-input-placeholder {
+color: #000 !important;
+}
+ 
+input:-moz-placeholder { /* Firefox 18- */
+color: #000 !important;  
+}
+ 
+input::-moz-placeholder {  /* Firefox 19+ */
+color: #000 !important;  
+}
+ 
+input:-ms-input-placeholder {  
+color: #000 !important;  
+}
+.left-form{
+  margin-left: 65px;
+}
+.style-content-two-right button{
+  margin-top: 26px;
+  margin-left: -36px;
+  background: #000;
+  width: 357px;
+  height: 46px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 12px;
+  color:#fff;
+  border: none;
+  outline:none;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+footer{
+  margin-top: 50px;
+  background: url(../img/footer-fon.png) repeat-x;
+}
+.footer-style p{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-left: 150px;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 22px;
+}
+.footer-style p > span{
+  border-bottom: 1px dashed #fff;
+}
+.footer-style h4{
+  color:#fff;
+  padding-top: 35px;
+}
+.footer-style li{
+  margin-left: -5px;
+}
+.footer_style{
+margin-left: 140px;
+display: block;
+width: 150px;
+height: 40px;
+background: #000;
+color:#fff;
+font-size: 12px;
+text-transform: uppercase;
+padding-top: 15px;
+}
+
+/*               Price list      */
+#gloobal_fon{
+  background: url(../img/fon-price.png);
+}
+#price-list{
+  padding-top:80px;
+  padding-bottom: 20px;
+}
+.style-prive-content ul a{
+  padding-left: 4px;
+  text-transform: uppercase;
+  font-size: 11px;
+  color:#000;
+  font-family: "ptsansnarrow";
+}
+.style-prive-content span{
+  color:#aba9a7;
+}
+.style_content h2{
+  color:#000;
+  font-family: "ptsansnarrowbold";
+  text-transform: uppercase; 
+  position: relative;
+}
+.style_content h2::before{
+content: "";
+position: absolute;
+width: 160px;
+height: 2px;
+background-image: url(../img/line.png);
+top:17px;
+margin-left: -185px;
+}
+.style_content h2::after{
+content: "";
+position: absolute;
+width: 160px;
+height: 2px;
+background-image: url(../img/line.png);
+top:17px;
+margin-left: 16px;
+}
+.content-style{
+  padding-top: 50px;
+}
+.content-style h4{
+color:#000;
+text-transform: uppercase;
+font-family: "ptsansnarrow";
+}
+.content-style ul{
+  list-style: none;
+}
+.content-style li{
+  padding-top: 10px;
+  margin-left: -38px;
+  color:#000;
+  font-size: 9px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 7px;
+}
+.content-style span{
+  margin-left:10px;
+}
+.style-table table
+,tr{
+  margin-top: 20px;
+  width: 100%;
+  height: 30px;
+}
+.style-table table tr, td{
+  border:1px solid #000;
+}
+.style-table td{
+  width: 72px;
+  padding-left: 5px;
+  color:#000;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.down-content-style h3{
+  margin: 40px 0 20px 0;
+  color:#000;
+  text-transform: uppercase;
+}
+.down-content-style p{
+  font-size: 13px;
+  font-family: "ptsansnarrow";
+  text-transform: uppercase;
+  line-height: 15px;
+  margin-bottom: 50px;
+}
+.down_content{
+  margin-top: 85px;
+}
+.footer{
+  margin: 0px;
+  box-shadow: 0px -9px 20px -7px #000000;
+  background: url(../img/footer-fon.png) repeat-x;
+}
+/*               Price list the end     */
+
+/*               Средства для Ухода      */
+.tovar_style{
+  background: #fff;
+  width: 87.2%;
+  box-shadow: 1px 1px 11px 3px #c0c0c0;
+}
+.tovar_style h5{
+  margin-top: 15px;
+  padding-left: 12px;
+  color:#000;
+  text-transform: uppercase;
+  font-family: "ptsansnarrow";
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 17px;
+}
+.tovar_style ul{
+padding-bottom:  15px;
+}
+.style_list_price{
+  margin-left: 19px;
+  background: #e5e5e5;
+  display: inline-block;
+  width: 128px;
+  height: 32px;
+  padding-top: 7px;
+  color:#000;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: bold;
+}
+.tovar_style button{
+  background: #000;
+  color:#fff;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: bold;
+  border: none;
+  margin-left: -9px;
+  height: 32px;
+  outline:none;
+}
+.tovar_style{
+  margin-bottom: 25px;
+}
+.navigation{
+margin-left: 15px;
+margin-bottom: 45px;
+}
+.navigation a{
+  width: 43px;
+  height: 43px;
+  background: #000;
+  text-align: center;
+  padding-top: 9px;
+  font-size: 17px;
+  color:#fff;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.navigation a:hover{
+  background: #fff;
+  color:#000;
+}
+.checkbox,
+.radio label{
+text-transform: uppercase;
+font-size: 13px;
+color:#000;
+margin-top: 5px;
+}
+.checkbox span{
+  margin-left: 10px;
+  padding-top: 2px;
+  position: absolute;
+}
+.radio span{
+  margin-left: 10px;
+  padding-top: 2px;
+  position: absolute;
+}
